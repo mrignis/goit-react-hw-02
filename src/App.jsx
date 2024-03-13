@@ -1,10 +1,10 @@
 // App.jsx
+import React, { useState, useEffect } from 'react';
+
 import Feedback from './components/Feedback';
 import Options from './components/Options';
 import Notification from './components/Notification';
 import styles from './components/Feedback.module.css'; // Імпорт CSS-модуля для стилізації компоненту
-import React, { useState, useEffect } from 'react';
-
 
 const App = () => {
   // Ініціалізуємо стан за допомогою даних з локального сховища, якщо вони є
